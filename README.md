@@ -1,4 +1,4 @@
-# ultimate_pros_cons
+# Ultimate Pros Cons
 A Pros Cons Shortcode Plugin for Wordpress, to add supprt of Pros & Cons Tables into Wordpress Posts, Pages and even in Custom Post Types. The Plugin Integrates an easy to use Shortcode Generator, which gives you precise Shortcodes to be directly copy pasted into your posts.
 
 # Usage Instructions
