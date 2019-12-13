@@ -1,0 +1,65 @@
+
+.upct_admin_page .shortcode_config_wrap {
+    display: grid;
+    grid-template-columns: 30% 30%;
+}
+.upct_admin_page .half_block {
+    padding: 10px 25px;
+}
+
+
+.upct_admin_page .half_block .add_control textarea {
+    width: 100%;
+    float: left;
+    height: 50px;
+}
+
+.upct_admin_page .add-btn-wrap {
+    float: left;
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+}
+
+.upct_admin_page .text-wrap {
+    float: left;
+    width: 100%;
+}
+
+.upct_admin_page .shortcode_button_wrap {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.upct_admin_page #added_pros, #added_cons {
+    height: 250px;
+    border: 2px solid #000;
+    background: #f1f1f1;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.upct_admin_page #added_pros li, #added_cons li {
+    list-style: none;
+    border-bottom: 1px solid #d6d6d6;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.upct_admin_page #shortcode_container {
+    background: #d2d2d2;
+    border: 2px solid #c3c3c3;
+    padding: 20px;
+    word-break: break-all;
+    overflow-wrap: break-word;
+    white-space: normal;
+    width: 100%;
+}
+
+.upct_admin_page .upct_wrapper {
+    display: block;
+    width: 100%;
+    float: left;
+    margin: 10px 0px;
+}

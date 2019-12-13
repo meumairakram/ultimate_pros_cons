@@ -1,0 +1,72 @@
+.upct_wrapper {
+    display: block;
+    width: 100%;
+    float: left;
+    margin: 10px 0px;
+}
+
+.upct_block {
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.upct_block.upct_cons_block {
+    margin-right: 0px;
+}
+
+
+.upct_block .upct_heading {
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.upct_block li {
+    margin-bottom: 10px;
+    list-style: none;
+    font-size: 16px;
+}
+
+
+.upct_pros_block .upct_heading {
+    background: #44d013;
+   
+}
+
+.upct_cons_block .upct_heading {
+    background: #bf000a;
+}
+
+.upct_pros_block li:before {
+    content: "\f00c";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-weight: bold;
+    margin-right: 10px;
+    color:#00bf08;
+	font-size: 16px;
+}
+
+.upct_cons_block li:before {
+    content: "\f05e";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-weight: bold;
+    margin-right: 10px;
+    color:#bf000a;
+	font-size: 16px;
+}
+
+
+@media only screen and (max-width:576px) {
+    .upct_block {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .upct_block .upct_heading {
+        padding: 10px 15px;
+    }
+}
